@@ -22,7 +22,7 @@ const decimalToBinary = (input) => {
     }
     result.innerText = remainders.reverse().join("");
 };
-
+ 
 const checkUserInput = () => {
     console.log(numberInput.value);
     if (!numberInput.value || isNaN(parseInt(numberInput.value))) {
