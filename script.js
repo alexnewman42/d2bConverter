@@ -13,11 +13,14 @@ const decimalToBinary = (input) => {
 const showAnimation = () => {};
 
 const checkUserInput = () => {
-    console.log(numberInput.value);
     if (!numberInput.value || isNaN(parseInt(numberInput.value))) {
         alert("Please provide a decimal number");
         return;
     };
+
+    if (parseInt(numberInput.value === 5)) {
+        
+    }
     result.textContent = decimalToBinary(parseInt(numberInput.value));
     numberInput.value = "";
 };
