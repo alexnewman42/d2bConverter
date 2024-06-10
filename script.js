@@ -10,6 +10,8 @@ const decimalToBinary = (input) => {
     }
 };
  
+const showAnimation = () => {};
+
 const checkUserInput = () => {
     console.log(numberInput.value);
     if (!numberInput.value || isNaN(parseInt(numberInput.value))) {
